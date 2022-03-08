@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\seana\\Game Repos\\UnrealEngine\\Toon-Tanks\\ToonTanks\\Source\\ToonTanks\\ToonTanks.Build.cs",
+		"C:\\Users\\seana\\Game Repos\\UnrealEngine\\Toon-Tanks\\ToonTanks\\Source\\ToonTanks.Target.cs",
+		"C:\\Users\\seana\\Game Repos\\UnrealEngine\\Toon-Tanks\\ToonTanks\\Source\\ToonTanksEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
