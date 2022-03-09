@@ -16,6 +16,12 @@ void ATower::Tick(float DeltaTime)
 	}	
 }
 
+void ATower::HandleDestruction()
+{
+	Super::HandleDestruction();
+	Destroy();
+}
+
 void ATower::BeginPlay()
 {
 	Super::BeginPlay();
@@ -43,7 +49,11 @@ bool ATower::InFireRange()
 
 void ATower::CheckFireCondition()
 {
-	if (InFireRange())
+	if (Tank == nullptr)
+	{
+		return;
+	}
+	if (InFireRange() && Tank->bAlive)
 	{
 		Fire();
 	}
